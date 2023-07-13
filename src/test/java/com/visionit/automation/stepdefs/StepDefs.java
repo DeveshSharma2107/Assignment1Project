@@ -49,7 +49,7 @@ public class StepDefs {
 	WebDriverWait wait;
 	int implicit_wait_timeout_in_sec = 10;
 	String Base_URL = "https://www.candere.com/";
-	String ExpectedpriceText = "Price updated";
+	//String ExpectedpriceText = "Price updated";
 	Scenario scn;
 	String ScreenshotFileName = "Cap1";
 	// obj creation
@@ -65,7 +65,7 @@ public class StepDefs {
 		driver.manage().window().maximize();
 		logger.info("Browser is maximised");
 		scn.log("Browser is maximised");
-		wait = new WebDriverWait(driver, 15);
+		wait = new WebDriverWait(driver, 35);
 		driver.manage().timeouts().implicitlyWait(implicit_wait_timeout_in_sec, TimeUnit.SECONDS);
 		logger.info("implicit wait timeout in sec is set as => " + implicit_wait_timeout_in_sec);
 		driver.get(Base_URL);

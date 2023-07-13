@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features="classpath:features",
 		glue="com.visionit.automation.stepdefs",
-		tags="@MultisearchFollowUs",
+		tags="@SelectProductSize",
 		plugin = {"pretty",
 				"html:target/htmlreport.html",
 				"json:target/json/fiExpectedTwitterURLe.json",

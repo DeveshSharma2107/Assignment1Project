@@ -22,6 +22,7 @@ public class LandingPageObjects {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	private String ExpectedFirstPage_URl = "https://www.candere.com/";
+//	private String  Price_updated;
 
 	
 	public LandingPageObjects(WebDriver driver,WebDriverWait wait) {
@@ -81,7 +82,7 @@ public class LandingPageObjects {
 		select.selectByVisibleText(ringSize2);
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].scrollIntoView(true);", DropDownElement);
-		WebElement PriceUpdateElement = driver.findElement( By.xpath("//div[text()='"+Price_updated+"']"));
+		WebElement PriceUpdateElement = driver.findElement(By.xpath("//div[text()='"+Price_updated+"']"));
 		wait.until(ExpectedConditions.visibilityOf(PriceUpdateElement));
 	
 		

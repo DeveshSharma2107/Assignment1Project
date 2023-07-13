@@ -26,7 +26,7 @@ Background: navigation to application base Url
 			When user search for the product as "majestic solitaire diamond ring"
 			And product is displayed as  "majestic solitaire diamond ring"
 			Then user click on the product and title should contain "Majestic Solitaire Diamond Ring"
-			And select ring size from dropdown as "23"
+			And select ring size from dropdown as "20"
 			And again select the ring size from the drop down as "17" and popup should be displayed as "Price updated"
 			
 			
