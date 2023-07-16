@@ -1,4 +1,4 @@
-@ProdCategory
+@ProdCategory @test
 Feature: An E-commerce Project candere HomePage validation
 
 	@ProdCategoryMain
