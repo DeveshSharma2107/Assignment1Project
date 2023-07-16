@@ -1,5 +1,7 @@
+@ProdCategory
 Feature: An E-commerce Project candere HomePage validation
 
+	@ProdCategoryMain
   Scenario: validation of landing page main categories
     Given User opened the browser
     And User navigated to the home Application url
