@@ -1,4 +1,4 @@
-@ProdCategory
+@ProdCategory @ProCatMain
 Feature: An E-commerce Project candere HomePage validation
 
 	@ProdCategoryMain
